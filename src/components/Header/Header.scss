@@ -1,0 +1,28 @@
+@import '../../styles/typography';
+@import '../../styles/global';
+@import '../../styles/mixins';
+@import '../../styles/variables';
+.header{
+    width: 80%;
+    height: 4rem;
+    background-color: #4A4B79;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            margin: 0 2.2rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: $text-color;
+        }
+        a:hover{
+            color: $text-color-highlight;
+        }
+    }
+}

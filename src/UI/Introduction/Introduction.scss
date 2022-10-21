@@ -1,0 +1,45 @@
+@import '../../styles/typography';
+@import '../../styles/global';
+@import '../../styles/mixins';
+@import '../../styles/variables';
+
+.main{
+    margin-top: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        margin: 0.5rem 0;
+        color: $text-color;
+        text-align: center;
+        font-size:2.75rem;
+        font-weight:700;
+        span{
+            color: $text-color-highlight; 
+        }
+    }
+    p{
+        margin: 1rem 0;
+        font-size:24px;
+        font-weight:700;
+        color: $text-color;
+        text-align: center;
+    }
+
+    a{
+        padding:0.75rem 1rem;
+        margin-top: 1.5rem;
+        font-size: 20px;
+        border-radius: 8px;
+        font-weight: 700;
+        color: $text-color;
+        background-color: $text-color-highlight;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+
+
+    }
+}
